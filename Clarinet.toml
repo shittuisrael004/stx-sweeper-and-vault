@@ -5,7 +5,7 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
-[contracts.stx-sweeper-test]
+[contracts.stx-sweeper]
 path = 'contracts/stx-sweeper.clar'
 clarity_version = 4
 epoch = 'latest'
