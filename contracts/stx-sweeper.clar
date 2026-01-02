@@ -1,9 +1,9 @@
 ;; STX Sweeper & Vault
 ;; Version: Clarity 4
 
-;; ---------------------------------------------------------
+;; -------------------------
 ;; 1. CONSTANTS & VARIABLES
-;; ---------------------------------------------------------
+;; -------------------------
 
 ;; The principal that deploys the contract is the permanent owner
 (define-constant CONTRACT-OWNER tx-sender)
@@ -16,9 +16,9 @@
 (define-constant ERR-INSUFFICIENT-FUNDS (err u101))
 (define-constant ERR-TRANSFER-FAILED (err u102))
 
-;; ---------------------------------------------------------
+;; --------------------
 ;; 2. PUBLIC FUNCTIONS
-;; ---------------------------------------------------------
+;; --------------------
 
 ;; @desc Removes all STX from the caller's wallet except for 0.01 STX
 ;; @returns (response uint uint) - The amount of STX transferred
@@ -61,9 +61,9 @@
     )
 )
 
-;; ---------------------------------------------------------
+;; -----------------------
 ;; 3. READ-ONLY FUNCTIONS
-;; ---------------------------------------------------------
+;; -----------------------
 
 ;; @desc Returns the total STX currently stored in the contract vault
 (define-read-only (get-vault-balance)
