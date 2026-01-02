@@ -9,9 +9,9 @@ plan:
     - id: 0
       transactions:
         - contract-publish:
-            contract-name: stx-sweeper
+            contract-name: stx-sweeper-test
             expected-sender: ST267C6MQJHPR7297033Z8VSKTJM7M62V3784NDT5
-            cost: 49218
+            cost: 24270
             path: contracts/stx-sweeper.clar
             anchor-block-only: true
             clarity-version: 4
